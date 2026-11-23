@@ -1,0 +1,62 @@
+/* sary content ki margin or padding lag gy gi  */
+*{
+    margin:0;
+    padding:0;
+}
+.name{
+    color:aliceblue;
+    text-decoration:underline
+}
+body{
+    background-color:#1E293B;
+    text-align:center;
+}
+/* 70vh 70 % is % bhi use kr skty   */
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin ;
+    width: 60vmin;
+     display: flex; /*is sa boxies next line ayy huy ha  */
+    flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border-radius:1rem;
+    border:none;
+box-shadow:0 0 1rem rgba(0,0,0,0.3);
+/* b0413e bhi rkh skty reish color  */
+color:#1f2937;
+background-color: white;
+font-size:15vmin;
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size: 1rem;;
+    background-color: #16A34A;
+    color: aliceblue;
+    border-radius: 1rem;
+    border-color: none;
+}
+#msg{
+    color: #1E293B;
+    background-color: aqua;
+    width: 100px;
+    margin: auto;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 3vmin;
+}
+.hide {
+    display: none;
+}
